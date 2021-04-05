@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class Search extends JFrame implement ActionListener{
+public class Search extends JFrame implement ActionListener,MouseListener{
 	JPanel panel1 =new JPanel(); 
 	JTextField t1 = new JTextField("Keywords",15);
 	JButton b1 = new JButton("Search");	
