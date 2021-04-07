@@ -33,3 +33,20 @@ public class Search extends JFrame implement ActionListener,MouseListener{
 	}
 }
 
+
+
+package CA;
+
+public class Fileopen {
+	String filename;
+	
+	
+	
+	
+	Fileopen(String filename){
+		this.filename=filename;
+	}
+
+}
+
+
