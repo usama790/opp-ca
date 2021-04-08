@@ -49,4 +49,24 @@ public class Fileopen {
 
 }
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class FileManager 
+{
+	String fileName;
+	File fileExample;
+	Scanner myScanner;
+    PrintWriter pwInput;
+	
+	// Constructor
+	FileManager (String fileName)
+	{
+		
+		this.fileName = fileName;
+		
+	}
+	
 
